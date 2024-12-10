@@ -1,0 +1,139 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3463,
+            "type": "VEC3",
+            "max": [
+                6.908315658569336,
+                9.196948051452637,
+                19.209392547607422
+            ],
+            "min": [
+                -5.568394660949707,
+                -6.274360179901123,
+                -17.46893310546875
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3463,
+            "type": "VEC3",
+            "max": [
+                0.9999864101409912,
+                0.9999961853027344,
+                0.7082218527793884
+            ],
+            "min": [
+                -0.9999838471412659,
+                -0.9999725818634033,
+                0.00009744249109644443
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 13965,
+            "type": "SCALAR",
+            "max": [
+                3462
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 138972,
+            "uri": "mesh_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 41556,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 41556,
+            "byteLength": 41556,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 83112,
+            "byteLength": 55860,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "mesh",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "world",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "world"
+            }
+        },
+        {
+            "name": "geometry_0",
+            "mesh": 0,
+            "extras": {
+                "processed": true,
+                "name": "geometry_0"
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
